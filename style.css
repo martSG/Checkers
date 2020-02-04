@@ -1,0 +1,13 @@
+.main-container
+{
+    box-sizing: border-box;
+    margin: auto;
+}
+.board
+{
+    border: 5px solid black;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-color: #d9b480;
+}
