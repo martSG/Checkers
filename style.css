@@ -1,13 +1,33 @@
-.main-container
+.wrapper
 {
     box-sizing: border-box;
-    margin: auto;
+    width: 1170px;
+    max-width: 100%;
+	margin: 0 auto;
 }
 .board
 {
     border: 5px solid black;
-    width: 600px;
-    height: 600px;
-    position: relative;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.row
+{
+    display: flex;
+}
+.board .cell
+{
+    width: 73px;
+    height: 73px;
+}
+.cell-light
+{
     background-color: #d9b480;
+}
+.cell-dark
+{
+    background-color: #815732;
 }
